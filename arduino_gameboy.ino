@@ -111,7 +111,7 @@ PROGMEM const unsigned char CH[] = {
 // Joystick pins
 int joyX = A0;
 int joyY = A1;
-int joyButton = 2;
+int joyButton = 2;  // Joystick button PIN
 
 char sel = 0;
 char selection = 0; // 1-up, 2-down, 3-select, 4-right, 5-left
